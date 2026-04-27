@@ -59,6 +59,10 @@ data preparation, encoding categorical features, model training, evaluation, and
 sales_dashboard_app/
 │
 ├── app.py
+├── assets
+│   └── dashboard_overwies.png
+│   └── ml_prediction.png
+│   └── trend_and_products.png
 ├── data/
 │   └── sales.csv
 ├── README.md
@@ -70,7 +74,7 @@ sales_dashboard_app/
 1. Clone the repository:
    ```bash
    git clone https://github.com/NobertSolkiewicz/sales-insights-dashboard.git
-   cd data
+   cd sales-insights-dashboard
    ```
    
 2. Create and activate a virtual environment:
@@ -123,7 +127,7 @@ Possible future improvements for this project include:
 
 ## Screenshots
 
-### Dashboard Overwiev
+### Dashboard Overview
 ![Dashboard Overview](assets/dashboard_overwies.png)
 
 ### Trend Analysis and Product Insights
