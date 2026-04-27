@@ -69,21 +69,25 @@ sales_dashboard_app/
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-link>
-   cd <your-project-folder>
+   git clone https://github.com/NobertSolkiewicz/sales-insights-dashboard.git
+   cd data
    ```
    
-2. python -m venv .venv
+2. Create and activate a virtual environment:
+   ``` python -m venv .venv 
+   ```
 
 ### Windows
-.venv\Scripts\activate
+```.venv\Scripts\activate```
 
 ### macOS/Linux
-source .venv/bin/activate
+```source .venv/bin/activate```
 
-3. pip install -r requirements.txt
+3. Install dependencies:
+```pip install -r requirements.txt```
 
-4. streamlit run app.py
+4. Run the Streamlit application:
+```streamlit run app.py```
 
 ## What I Learned
 
@@ -116,6 +120,17 @@ Possible future improvements for this project include:
 - data/sales.csv – dataset used for analysis and prediction
 - README.md – project description, setup instructions, and documentation
 - requirements.txt – list of required Python packages
+
+## Screenshots
+
+### Dashboard Overwiev
+![Dashboard Overview](assets/dashboard_overwies.png)
+
+### Trend Analysis and Product Insights
+![Trend Analysis and Product Insights](assets/trend_and_products.png)
+
+### Machine Learning Prediction Module
+![Machine Learning Prediction Module](assets/ml_prediction.png)
 
 ## Notes
 The model is included as a learning-focused proof of concept rather than a production-ready forecasting solution.
